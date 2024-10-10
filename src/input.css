@@ -15,4 +15,10 @@
   .wrapper {
     @apply container mx-auto max-w-[71.25rem] md:w-3/4 w-11/12;
   }
+  .heading {
+    @apply text-[4.0625rem] text-white font-bold leading-[5rem];
+  }
+  .desc {
+    @apply text-lg leading-[1.875rem];
+  }
 }
