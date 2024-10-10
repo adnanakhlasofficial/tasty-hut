@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         primary: "#FFC107",
         primaryHover: "#dea705",
+        deepGray: "#403F3F",
+        lightGray: "#706F6F",
         deepBlack: "#100F0F",
       },
       fontFamily: {

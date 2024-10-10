@@ -21,4 +21,16 @@
   .desc {
     @apply text-lg leading-[1.875rem];
   }
+  .title {
+    @apply text-deepBlack text-[2.1875rem] font-medium text-center;
+  }
+  .card-title {
+    @apply text-deepGray font-bold text-2xl;
+  }
+  .card-desc {
+    @apply text-lightGray text-lg leading-[1.875rem];
+  }
+  .card-btn {
+    @apply underline text-primary font-semibold text-lg hover:text-primaryHover;
+  }
 }
