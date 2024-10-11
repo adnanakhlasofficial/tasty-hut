@@ -47,34 +47,13 @@
       <section>
         <h2 class="title">Your Favourite Food</h2>
         <!-- Cards Container -->
-        <div class="mt-12">
-          <!-- card1 -->
-          <div
-            class="flex gap-6 items-center border rounded-lg max-w-[34.875rem] h-[18.75rem]"
-          >
-            <div class="h-full w-full">
-              <img
-                class="rounded-lg h-full w-full"
-                src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
-                alt=""
-              />
-            </div>
-            <!-- Content -->
-            <div class="space-y-6">
-              <div class="space-y-4 w-3/4">
-                <h3 class="card-title">Chicken Handi</h3>
-                <p class="card-desc">
-                  There are many variations of passages of available, but the
-                  majority have suffered
-                </p>
-              </div>
-              <div>
-                <button class="card-btn">View Details</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div
+          id="cards-container"
+          class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6"
+        ></div>
       </section>
     </main>
+
+    <script src="./src/index.js"></script>
   </body>
 </html>
