@@ -5,6 +5,7 @@ const fetchData = async (status = false) => {
   const data = await res.json();
   // const categories = data.categories;
   const cardsContainer = document.getElementById("cards-container");
+  cardsContainer.innerHTML = "";
 
   // if (status) {
   //   const categories = data.categories;
