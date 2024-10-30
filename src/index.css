@@ -10,7 +10,7 @@ body {
 }
 
 .btn {
-  @apply rounded-lg bg-primary px-10 py-6 text-xl font-bold text-deep-black;
+  @apply rounded-lg bg-primary px-10 py-4 text-xl font-bold text-deep-black;
 }
 
 .wrapper {
